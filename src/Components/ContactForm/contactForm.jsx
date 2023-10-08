@@ -38,7 +38,7 @@ const contactForm = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            'api-key': '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', // API-KEY
+            'api-key': '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', // API-KEY
           },
         }
       );
