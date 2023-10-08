@@ -5,7 +5,7 @@ import path from "path-browserify"
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/vite-deploy/",
+  base: "/lrsproject/",
   resolve: {
     alias: {
       path: "path-browserify",
