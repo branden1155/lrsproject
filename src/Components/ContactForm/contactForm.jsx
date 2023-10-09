@@ -69,12 +69,12 @@ const contactForm = () => {
 
   return (
     <div className='flex flex-col relative w-[380px] h-[480px] min-w-[380px] bg-white text-center justify-center rounded-tl-md rounded-ee-md' >
-        <span className='text-[#001e1d] font-gafata text-lg font-semibold'>Get in Touch</span>
+        <span className='text-[#001e1d] text-2xl font-semibold font-exo'>Contact-us</span>
         <div className=''>
             <form className='flex flex-col items-center' onSubmit={handleSubmit}>
-                <input className='bg-gray-300 mt-6 h-[36px] w-[75%] shadow-inner ' type="text" placeholder="Name" id="name" name="name" value={formData.name} onChange={handleChange} />
-                <input className='bg-gray-300 mt-8 h-[36px] w-[75%] shadow-inner' type="text" placeholder="E-Mail" id="email" name="email" value={formData.email} onChange={handleChange} />
-                <input className='bg-gray-300 mt-8 h-[186px] w-[75%] shadow-inner' type="text" placeholder="Message" id="message" name="message" value={formData.message} onChange={handleChange} />
+                <input className='flex text-start pl-6  border focus:outline-none focus:ring ring-[#abd1c6] mt-6 h-[36px] w-[75%] shadow-inner text-[black] font-gafata' type="text" placeholder="Name" id="name" name="name" value={formData.name} onChange={handleChange} />
+                <input className='flex text-start pl-6  border focus:outline-none focus:ring ring-[#abd1c6] mt-8 h-[36px] w-[75%] shadow-inner text-[black] font-gafata' type="text" placeholder="E-Mail" id="email" name="email" value={formData.email} onChange={handleChange} />
+                <input className='flex justify-items-start pl-6 border focus:outline-none focus:ring ring-[#abd1c6] pt-6 mt-8 pb-[160px] h-[100%] w-[75%] shadow-inner text-[black] font-gafata' type="text" placeholder="Message" id="message" name="message" value={formData.message} onChange={handleChange} />
                 <button type="submit" className='bg-[#f9bc60] text-[#001e1d] mt-8 w-[86px] h-[36px] font-medium '>Submit</button>
             </form>
         </div>

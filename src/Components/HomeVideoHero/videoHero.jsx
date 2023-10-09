@@ -4,8 +4,8 @@ import ContactForm from '../ContactForm/contactForm';
 
 const VideoBackground = () => {
   return (
-    <div className=''>
-      <div className='flex absolute gap-[126px] text-white z-1 max-w-[1240px] h-[480px] m-auto left-0 right-0 top-0 bottom-0 justify-center w-[70%] items-center'>
+    <div className='flex'>
+      <div className='flex lg:m-auto absolute gap-[126px] text-white z-1 max-w-[1240px] h-[480px] m-auto left-0 right-0 top-0 bottom-0 justify-center w-[70%] items-center'>
         <div className='flex flex-col max-w-[480px]'>
           <span className='w-[100%] font-exo uppercase font-bold text-[42px]'>Land Recovery Solutions</span>
           <span className='font-gafata uppercase tracking-wider'>Take your LAND back one step at a time </span>

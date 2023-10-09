@@ -26,12 +26,12 @@ function navBar() {
    <div className='text-black flex justify-between items-center h-24 max-w-[1240px] mx-auto z-20 px-4'>
     <a href="/"><img src={LRSImage} className='w-[6rem] h-[6rem]'></img></a>
     <ul className='hidden md:flex'>
-        <a href="/"><li className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap'>Home</li></a>
+        <a href="/"><li className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap font-catamaran'>Home</li></a>
         <div className='relative inline-block'>
             <li 
             onMouseEnter={handleHover}
             onMouseLeave={handleMouseLeave} 
-            className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap'>Services</li>
+            className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap font-catamaran'>Services</li>
         </div>
         {isOpen && (
         <div
@@ -39,19 +39,19 @@ function navBar() {
         onMouseLeave={handleMouseLeave}
         className="absolute mt-10 z-20 ml-[6.5rem] w-32 bg-white text-gray-700 rounded-t-lg shadow-lg text-center text-md">
           <ul className="py-1">
-          <a href="/brushClearing"><li className="hover:bg-[#abd1c6] py-4 px-2">Brush Clearing</li></a>
-          <a href="/treeRemoval"><li className="hover:bg-[#abd1c6] py-4 px-2">Tree Removal</li></a>
-          <a href="/grading"><li className="hover:bg-[#abd1c6] py-4 px-2">Grading</li></a>
-          <a href="/erosionControl"><li className="hover:bg-[#abd1c6] py-4 px-2">Erosion Control</li></a>
+          <a href="/brushClearing"><li className="hover:bg-[#abd1c6] py-4 px-2 font-catamaran">Brush Clearing</li></a>
+          <a href="/treeRemoval"><li className="hover:bg-[#abd1c6] py-4 px-2 font-catamaran">Tree Removal</li></a>
+          <a href="/grading"><li className="hover:bg-[#abd1c6] py-4 px-2 font-catamaran">Grading</li></a>
+          <a href="/erosionControl"><li className="hover:bg-[#abd1c6] py-4 px-2 font-catamaran">Erosion Control</li></a>
           </ul>
         </div>
       )}
-        <a href="/#about"><li className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap'>About Us</li></a>
-        <a href="/contactus"><li className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap'>Contact Us</li></a>
+        <a href="/#about"><li className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap font-catamaran'>About Us</li></a>
+        <a href="/contactus"><li className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap font-catamaran'>Contact Us</li></a>
     </ul>
     <div className='hidden ml-16 md:flex items-center sm:ml-6'>
-        <a href="#ourServices"><button className='text-sm text-[#ffffff] bg-[#001e1d] rounded w-[6rem] h-[2rem]'>Learn More</button></a>
-        <h1 className='text-black text-sm mx-4 w-[6.5rem] underline'>(1)999-999-9999</h1>
+        <a href="#ourServices"><button className='text-sm text-[#ffffff] bg-[#001e1d] rounded w-[6rem] h-[2rem] font-catamaran'>Learn More</button></a>
+        <h1 className='text-black text-sm mx-4 w-[6.5rem] underline font-catamaran'>(1)999-999-9999</h1>
     </div>
     <div onClick={handleNav} className='block z-30 md:hidden'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20}/>}
@@ -68,7 +68,7 @@ function navBar() {
                 Services
                 </li>
             </div>
-            <a href="/aboutus"><li className='p-4 border-b border-gray-600 cursor-pointer'>About Us</li></a>
+            <a href="/aboutus"><li className='p-4 border-b border-gray-600 cursor-pointer font-catamaran'>About Us</li></a>
             <a href=""><li className='p-4 border-b border-gray-600'>Contact Us</li></a>
         </ul>
         {isOpen && (
@@ -77,10 +77,10 @@ function navBar() {
         onMouseLeave={handleMouseLeave}
         className="absolute mt-[-12rem] z-20 w-[100%] bg-white text-gray-700 rounded-t-lg shadow-lg text-center text-md">
           <ul className="py-1">
-            <a href="/brushClearing"><li className="hover:bg-[#abd1c6] py-4 px-2 cursor-pointer">Brush Clearing</li></a>
-            <a href="/treeRemoval"><li className="hover:bg-[#abd1c6] py-4 px-2 cursor-pointer">Tree Removal</li></a>
-            <a href="/grading"><li className="hover:bg-[#abd1c6] py-4 px-2 cursor-pointer">Grading</li></a>
-            <a href="/erosionControl"><li className="hover:bg-[#abd1c6] py-4 px-2 cursor-pointer">Erosion Control</li></a>
+            <a href="/brushClearing"><li className="hover:bg-[#abd1c6] py-4 px-2 cursor-pointer font-catamaran">Brush Clearing</li></a>
+            <a href="/treeRemoval"><li className="hover:bg-[#abd1c6] py-4 px-2 cursor-pointer font-catamaran ">Tree Removal</li></a>
+            <a href="/grading"><li className="hover:bg-[#abd1c6] py-4 px-2 cursor-pointer font-catamaran">Grading</li></a>
+            <a href="/erosionControl"><li className="hover:bg-[#abd1c6] py-4 px-2 cursor-pointer font-catamaran">Erosion Control</li></a>
           </ul>
         </div>
       )}

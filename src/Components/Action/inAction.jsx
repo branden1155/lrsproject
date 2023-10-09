@@ -30,7 +30,7 @@ const inAction = () => {
 
   return (
     
-    <div className='flex max-w-[1920px] justify-center items-center mx-auto w-[100%]'>
+    <div className='flex max-w-[1920px] justify-center items-center mx-auto w-[90%]'>
         <div className='flex flex-col w-[580px] h-[680px] justify-center items-start p-6 bg-[#004643] border-solid border-black'>
             <h1 className=' font-bold uppercase text-3xl underline underline-offset-8 decoration-[#f9bc60] text-[#fffffe] pb-2'>See us in Action</h1>
             <span className='text-[#abd1c6]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, ad! Accusamus impedit, nemo dolorem rem illum numquam. Odio magnam, voluptatum autem laboriosam molestiae vero!</span>
