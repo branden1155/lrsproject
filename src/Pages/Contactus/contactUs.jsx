@@ -26,6 +26,7 @@ const contactUs = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+
     try {
       const response = await axios.post(
         'https://api.sendinblue.com/v3/smtp/email',
@@ -47,7 +48,7 @@ const contactUs = () => {
         {
           headers: {
             'Content-Type': 'application/json',
-            'api-key': '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', // API-KEY
+            'api-key': import.meta.env.VITE_API_KEY, // API-KEY
           },
         }
       );
