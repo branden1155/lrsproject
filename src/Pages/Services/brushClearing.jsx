@@ -119,18 +119,11 @@ const brushClearing = () => {
         <div className='flex lg:flex-col lg:justify-center lg:items-center flex-col w-[70%] h-[100%]'>
           <div className='mb-[38px]'>
             <h1 className='uppercase text-3xl font-bold text-[#f9bc60] font-exo'>Brush Clearing</h1>
-            <p className='pt-2 text-[#004643] font-catamaran'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime facere et nesciunt rem reiciendis assumenda. Repudiandae
-              cum nobis repellat. Eos adipisci sed, sequi maiores vitae est officiis reprehenderit? Eum pariatur ullam odio molestiae assumenda maxime quidem
-                ea nesciunt, quis quam, reprehenderit adipisci? Error sunt quisquam nostrum quas iste enim ad neque esse, ratione architecto libero officiis
-                amet optio maxime non perspiciatis ab blanditiis, sed repellat aspernatur distinctio culpa? Sed est maiores facilis dicta dignissimos. Repellat
-                  fugiat saepe accusantium aspernatur repellendus? Laudantium sed deserunt totam tenetur provident tempore, quasi dolorum eos quia delectus repudiandae
-                  vero facere atque maiores corrupti dignissimos culpa!</p>
+            <p className='pt-2 text-[#004643] font-catamaran'>Land clearing is a crucial process that involves the removal of vegetation, trees, and other natural obstructions from a designated area of land, typically in preparation for construction, agriculture, or other development purposes. This process can vary from selective clearing, which involves removing specific vegetation, to complete clearing, where all vegetation is removed. Land clearing is essential for creating usable space, enhancing agricultural productivity, preventing wildfires, and promoting safety in construction and development projects. However, it must be carried out with consideration for environmental impact, as excessive land clearing can lead to habitat destruction and soil erosion. Therefore, sustainable and responsible land clearing practices are increasingly emphasized to minimize adverse ecological effects and protect the land's long-term health.</p>
           </div>
           <div className=''>
             <h1 className='uppercase text-2xl font-medium text-[#f9bc60] font-exo'>Why us for Brush Clearing?</h1>
-            <p className='pt-2 text-[#004643] font-catamaran'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellendus quidem pariatur, laudantium quasi cum nesciunt consectetur deserunt
-               vitae, maxime, eius sint esse adipisci nihil atque ab velit ullam facere sequi totam minima voluptate ut ipsa dolore. Neque, incidunt! Tenetur
-                asperiores ullam vel sapiente debitis? Officiis ipsam ut dolores at.</p>
+            <p className='pt-2 text-[#004643] font-catamaran'>Land Recovery Solutions is an ideal choice for land clearing services due to their specialized expertise in environmental restoration and sustainable land management. With a focus on ecological restoration, they have a deep understanding of how to clear land while preserving and rehabilitating natural habitats. Their commitment to responsible and eco-friendly land clearing practices ensures that they not only prepare the land for various applications but also contribute to the long-term health and sustainability of the environment.</p>
           </div>
         </div>
         <div className="w-[980px] h-[680px] pl-12">

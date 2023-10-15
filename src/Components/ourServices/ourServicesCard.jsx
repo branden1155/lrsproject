@@ -9,23 +9,24 @@ const ourServicesCard = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-12  justify-start items-center m-auto ">
                     <div className="flex flex-col bg-white shadow-md rounded-lg p-4 transition-transform transform hover:scale-105">
                         <h1 className='text-xl py-4 uppercase font-catamaran '>Grading</h1>
-                        <p className='font-gafata'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quaerat commodi dolore aut voluptatem aliquid reiciendis hic? Assumenda quasi dignissimos, suscipit quaerat nostrum fugiat nesciunt.</p>
+                        <p className='font-gafata'>
+                        The company Land Recovery Solutions will perform land grading, reshaping and leveling the land's surface to achieve the desired slope, contour, or grade, ensuring proper drainage and preparing the land for construction or landscaping purposes.</p>
                         <a href="/grading"><button className='bg-[#f9bc60] text-[#001e1d] w-[89px] h-[32px] mt-4 font-catamaran rounded-sm text-sm hover:text-[#fffffe] transition duration-200 ease-in-out'>Learn More</button></a>
                     </div>
                     <div className="flex flex-col bg-white shadow-md rounded-lg p-4 transition-transform transform hover:scale-105">
                         <h1 className='text-xl py-4 uppercase font-catamaran'>Erosion Control</h1>
-                        <p className='font-gafata'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit tempore iure dolore a quis aspernatur ab aliquam aperiam consectetur temporibus labore, dolorem debitis explicabo cum.</p>
+                        <p className='font-gafata'>The company Land Recovery Solutions will provide erosion control services, which involve implementing measures to prevent or manage soil erosion, safeguarding the land from the damaging effects of water or wind erosion.</p>
                         <a href="/erosionControl"><button className='bg-[#f9bc60] text-[#001e1d] w-[89px] h-[32px] mt-4 font-catamaran rounded-sm text-sm hover:text-[#fffffe] transition duration-200 ease-in-out'>Learn More</button></a>                   
                     </div>
 
                     <div className="flex flex-col bg-white shadow-md rounded-lg p-4 transition-transform transform hover:scale-105">
                         <h1 className='text-xl py-4 uppercase font-catamaran'>Tree Removal</h1>
-                        <p className='font-gafata'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A est eius repellendus optio maxime cum quisquam, nisi doloribus reprehenderit temporibus recusandae aperiam blanditiis facilis minima?</p>
+                        <p className='font-gafata'>Land Recovery Solutions is equipped to provide professional tree removal services, ensuring the safe and efficient removal of trees for various purposes, including land clearing, safety concerns, or property development. Contact us to learn more about our tree services.</p>
                         <a href="/treeRemoval"><button className='bg-[#f9bc60] text-[#001e1d] w-[89px] h-[32px] mt-4 font-catamaran rounded-sm text-sm hover:text-[#fffffe] transition duration-200 ease-in-out'>Learn More</button></a>
                     </div>
                     <div className="flex flex-col bg-white shadow-md rounded-lg p-4 transition-transform transform hover:scale-105">
                         <h1 className='text-xl py-4 uppercase font-catamaran'>Brush Clearing</h1>
-                        <p className='font-gafata'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum doloribus eligendi aliquid praesentium, dolorum, alias molestias, maiores qui quae atque fugit maxime ullam provident vitae!</p>
+                        <p className='font-gafata'>The company Land Recovery Solutions specializes in brush clearing services, effectively clearing vegetation and undergrowth to create a clean and manageable landscape, often for land preparation, fire prevention, or land improvement projects.</p>
                         <a href="/brushClearing"><button className='bg-[#f9bc60] text-[#001e1d] w-[89px] h-[32px] mt-4 font-catamaran rounded-sm text-sm hover:text-[#fffffe] transition duration-200 ease-in-out'>Learn More</button></a>
                     </div>
                 </div>

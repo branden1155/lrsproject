@@ -33,7 +33,7 @@ const inAction = () => {
     <div className='flex max-w-[1920px] justify-center items-center mx-auto w-[90%]'>
         <div className='flex flex-col w-[580px] h-[680px] justify-center items-start p-6 bg-[#004643] border-solid border-black'>
             <h1 className=' font-bold uppercase text-3xl underline underline-offset-8 decoration-[#f9bc60] text-[#fffffe] pb-2'>See us in Action</h1>
-            <span className='text-[#abd1c6]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium, ad! Accusamus impedit, nemo dolorem rem illum numquam. Odio magnam, voluptatum autem laboriosam molestiae vero!</span>
+            <span className='text-[#abd1c6]'>Witnessing Land Recovery Solutions in action is a testament to their dedication to environmentally responsible land management. Their skilled team employs cutting-edge techniques and equipment to implement services like land clearing, tree removal, grading, and erosion control.</span>
             <a href="/contactus"><button className='bg-[#f9bc60] text-[#001e1d] w-[89px] h-[32px] mt-4 font-catamaran rounded-sm text-sm hover:text-[#fffffe] transition duration-200 ease-in-out'>Learn More</button></a>
         </div>
         <div className='w-[1140px] h-[100%] max-h-[880px] min-w[]'>

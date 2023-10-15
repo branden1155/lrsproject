@@ -128,18 +128,11 @@ const treeRemoval = () => {
         <div className='flex lg:flex-col lg:justify-center lg:items-center flex-col w-[70%] h-[100%]'>
           <div className='mb-[38px]'>
             <h1 className='uppercase text-3xl font-bold text-[#f9bc60] font-exo'>Tree Removal</h1>
-            <p className='pt-2 text-[#004643] font-catamaran'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime facere et nesciunt rem reiciendis assumenda. Repudiandae
-              cum nobis repellat. Eos adipisci sed, sequi maiores vitae est officiis reprehenderit? Eum pariatur ullam odio molestiae assumenda maxime quidem
-                ea nesciunt, quis quam, reprehenderit adipisci? Error sunt quisquam nostrum quas iste enim ad neque esse, ratione architecto libero officiis
-                amet optio maxime non perspiciatis ab blanditiis, sed repellat aspernatur distinctio culpa? Sed est maiores facilis dicta dignissimos. Repellat
-                  fugiat saepe accusantium aspernatur repellendus? Laudantium sed deserunt totam tenetur provident tempore, quasi dolorum eos quia delectus repudiandae
-                  vero facere atque maiores corrupti dignissimos culpa!</p>
+            <p className='pt-2 text-[#004643] font-catamaran'>Tree removal is a critical aspect of arboriculture and land management, involving the deliberate extraction of trees for various reasons. Whether it's to eliminate diseased, dead, or hazardous trees, create space for construction, or promote the healthy growth of other vegetation, tree removal is a skilled and precise process. It often requires the expertise of trained arborists or tree removal specialists who use specialized equipment like chainsaws, cranes, and chippers to safely and efficiently fell, limb, and remove trees. Proper tree removal not only enhances safety but also supports sustainable land management by allowing for the replanting of suitable species and minimizing the risk of damage from falling trees during storms or adverse weather conditions. Additionally, repurposing or recycling the wood from removed trees can contribute to environmental sustainability by reducing waste and finding new uses for the valuable timber resources.</p>
           </div>
           <div className=''>
             <h1 className='uppercase text-2xl font-medium text-[#f9bc60] font-exo'>Why us for Tree Removals?</h1>
-            <p className='pt-2 text-[#004643] font-catamaran'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellendus quidem pariatur, laudantium quasi cum nesciunt consectetur deserunt
-               vitae, maxime, eius sint esse adipisci nihil atque ab velit ullam facere sequi totam minima voluptate ut ipsa dolore. Neque, incidunt! Tenetur
-                asperiores ullam vel sapiente debitis? Officiis ipsam ut dolores at.</p>
+            <p className='pt-2 text-[#004643] font-catamaran'>Land Recovery Solutions stands out as an excellent choice for tree removal services due to their holistic approach to land management. With their focus on ecological restoration and environmental sustainability, they understand the importance of responsible tree removal that minimizes the ecological impact and preserves the health of the surrounding landscape. Their experienced arborists and tree removal specialists are skilled in safely and efficiently removing trees while also considering replanting and recycling options, making them a perfect fit for clients who prioritize both environmental stewardship and land development needs.</p>
           </div>
         </div>
         <div className="w-[980px] h-[680px] pl-12">

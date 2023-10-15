@@ -115,18 +115,11 @@ const grading = () => {
         <div className='flex lg:flex-col lg:justify-center lg:items-center flex-col w-[70%] h-[100%]'>
           <div className='mb-[38px]'>
             <h1 className='uppercase text-3xl font-bold text-[#f9bc60] font-exo'>Grading</h1>
-            <p className='pt-2 text-[#004643] font-catamaran'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime facere et nesciunt rem reiciendis assumenda. Repudiandae
-              cum nobis repellat. Eos adipisci sed, sequi maiores vitae est officiis reprehenderit? Eum pariatur ullam odio molestiae assumenda maxime quidem
-                ea nesciunt, quis quam, reprehenderit adipisci? Error sunt quisquam nostrum quas iste enim ad neque esse, ratione architecto libero officiis
-                amet optio maxime non perspiciatis ab blanditiis, sed repellat aspernatur distinctio culpa? Sed est maiores facilis dicta dignissimos. Repellat
-                  fugiat saepe accusantium aspernatur repellendus? Laudantium sed deserunt totam tenetur provident tempore, quasi dolorum eos quia delectus repudiandae
-                  vero facere atque maiores corrupti dignissimos culpa!</p>
+            <p className='pt-2 text-[#004643] font-catamaran'>Grading is a fundamental aspect of land development and construction that involves reshaping the topography and contour of a piece of land. This process is typically carried out to achieve a level or sloped surface that meets specific design and engineering requirements. Grading serves multiple essential purposes, such as creating a solid foundation for structures, controlling surface water drainage, and ensuring safe and accessible landscapes.</p>
           </div>
           <div className=''>
             <h1 className='uppercase text-2xl font-medium text-[#f9bc60] font-exo'>Why us for Grading?</h1>
-            <p className='pt-2 text-[#004643] font-catamaran'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellendus quidem pariatur, laudantium quasi cum nesciunt consectetur deserunt
-               vitae, maxime, eius sint esse adipisci nihil atque ab velit ullam facere sequi totam minima voluptate ut ipsa dolore. Neque, incidunt! Tenetur
-                asperiores ullam vel sapiente debitis? Officiis ipsam ut dolores at.</p>
+            <p className='pt-2 text-[#004643] font-catamaran'>Land Recovery Solutions is well-suited to provide grading services thanks to their expertise in sustainable land management and construction practices. Their commitment to preserving the natural environment while optimizing land for various purposes ensures that grading is done with minimal ecological impact. With a team of skilled operators and knowledge of best practices, they can efficiently and effectively shape the land to meet project requirements, whether it's for building foundations, road construction, or landscaping, while also promoting responsible land development and erosion control.</p>
           </div>
         </div>
         <div className="w-[980px] h-[680px] pl-12">

@@ -115,18 +115,11 @@ const erosionControl = () => {
         <div className='flex lg:flex-col lg:justify-center lg:items-center flex-col w-[70%] h-[100%]'>
           <div className='mb-[38px]'>
             <h1 className='uppercase text-3xl font-bold text-[#f9bc60] font-exo'>Erosion Control</h1>
-            <p className='pt-2 text-[#004643] font-catamaran'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime facere et nesciunt rem reiciendis assumenda. Repudiandae
-              cum nobis repellat. Eos adipisci sed, sequi maiores vitae est officiis reprehenderit? Eum pariatur ullam odio molestiae assumenda maxime quidem
-                ea nesciunt, quis quam, reprehenderit adipisci? Error sunt quisquam nostrum quas iste enim ad neque esse, ratione architecto libero officiis
-                amet optio maxime non perspiciatis ab blanditiis, sed repellat aspernatur distinctio culpa? Sed est maiores facilis dicta dignissimos. Repellat
-                  fugiat saepe accusantium aspernatur repellendus? Laudantium sed deserunt totam tenetur provident tempore, quasi dolorum eos quia delectus repudiandae
-                  vero facere atque maiores corrupti dignissimos culpa!</p>
+            <p className='pt-2 text-[#004643] font-catamaran'>Erosion control is a critical practice in land management and construction aimed at mitigating the natural process of soil erosion caused by wind, water, or human activities. Erosion can have damaging effects on the environment, including the loss of fertile topsoil, the contamination of water bodies, and the destabilization of landscapes. Various erosion control techniques are employed to prevent or reduce these adverse impacts. These methods include the use of physical barriers like silt fences and retaining walls, as well as vegetation-based strategies such as planting cover crops and installing bioengineering structures like riprap.</p>
           </div>
           <div className=''>
             <h1 className='uppercase text-2xl font-medium text-[#f9bc60] font-exo'>Why us for Erosion Control?</h1>
-            <p className='pt-2 text-[#004643] font-catamaran'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit repellendus quidem pariatur, laudantium quasi cum nesciunt consectetur deserunt
-               vitae, maxime, eius sint esse adipisci nihil atque ab velit ullam facere sequi totam minima voluptate ut ipsa dolore. Neque, incidunt! Tenetur
-                asperiores ullam vel sapiente debitis? Officiis ipsam ut dolores at.</p>
+            <p className='pt-2 text-[#004643] font-catamaran'>Land Recovery Solutions is a natural choice for erosion control services due to their comprehensive understanding of ecological restoration and responsible land management. Their expertise in preventing soil erosion while promoting sustainable land use aligns perfectly with the goals of erosion control. With a team well-versed in erosion control techniques and eco-friendly practices, they can effectively implement measures to safeguard landscapes against erosion, preserving soil quality and minimizing environmental impact.</p>
           </div>
         </div>
         <div className="w-[980px] h-[680px] pl-12">

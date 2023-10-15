@@ -4,7 +4,7 @@ import { BsTwitter, BsFacebook, BsYoutube } from 'react-icons/bs'
 
 function footer() {
   return (
-    <div className='flex relative h-[100%] bg-[#004648] justify-evenly  w-[100%] mt-12'>
+    <div className='flex relative h-[100%] bg-[#004648] justify-evenly w-[100%] mt-12'>
         <div className='flex flex-col mx-auto py-[32px]'>
             <h1 className='font-semibold font-catamaran text-[#fffffe] text-lg uppercase'>Get in touch with us!</h1>
             <span className='w-[40%] text-sm text-[#abd1c6]'>Submit your email below to get updates on possible discounts and weekly news.</span>
