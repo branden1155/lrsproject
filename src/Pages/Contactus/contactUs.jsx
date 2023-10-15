@@ -112,7 +112,6 @@ const contactUs = () => {
               <button type="submit" className='bg-[#f9bc60] text-[#001e1d] mt-8 w-[110px] h-[48px] text-[12px] font-medium uppercase font-gafata'>Send Message!</button>
             </div>
           </form>
-          <span>{console.log(import.meta.env.VITE_API_KEY)}</span>
         </div>
       </div>
     </div>
