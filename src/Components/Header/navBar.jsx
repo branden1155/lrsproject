@@ -23,7 +23,7 @@ function navBar() {
     };
     
   return (
-   <div className='text-black flex justify-between items-center h-24 max-w-[1240px] mx-auto z-20 px-4'>
+   <div id="header" className='text-black flex justify-between items-center h-24 max-w-[1240px] mx-auto z-20 px-4'>
     <a href="/"><img src={LRSImage} className='w-[6rem] h-[6rem]'></img></a>
     <ul className='hidden md:flex'>
         <a href="/"><li className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap font-catamaran'>Home</li></a>
@@ -50,7 +50,7 @@ function navBar() {
         <a href="/contactus"><li className='p-2 px-8 hover:bg-[#abd1c6] ease-in-out duration-200 whitespace-nowrap font-catamaran'>Contact Us</li></a>
     </ul>
     <div className='hidden ml-16 md:flex items-center sm:ml-6'>
-        <a href="#ourServices"><button className='text-sm text-[#ffffff] bg-[#001e1d] rounded w-[6rem] h-[2rem] font-catamaran'>Learn More</button></a>
+        <a href="#ourServices" data-te-smooth-scroll-init><button className='text-sm text-[#ffffff] bg-[#001e1d] rounded w-[6rem] h-[2rem] font-catamaran'>Learn More</button></a>
         <h1 className='text-black text-sm mx-4 w-[6.5rem] underline font-catamaran'>(1)999-999-9999</h1>
     </div>
     <div onClick={handleNav} className='block z-30 md:hidden'>
@@ -68,8 +68,8 @@ function navBar() {
                 Services
                 </li>
             </div>
-            <a href="/aboutus"><li className='p-4 border-b border-gray-600 cursor-pointer font-catamaran'>About Us</li></a>
-            <a href=""><li className='p-4 border-b border-gray-600'>Contact Us</li></a>
+            <a href="/#about"><li className='p-4 border-b border-gray-600 cursor-pointer font-catamaran'>About Us</li></a>
+            <a href="/contactus"><li className='p-4 border-b border-gray-600'>Contact Us</li></a>
         </ul>
         {isOpen && (
         <div

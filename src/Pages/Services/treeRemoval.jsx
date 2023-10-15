@@ -161,7 +161,6 @@ const treeRemoval = () => {
       </div>
       <div className="">
         <PhotoAlbum layout="rows" photos={photos} />
-        <h1>Hello</h1>
       </div>
     </div>
   )

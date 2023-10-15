@@ -6,6 +6,7 @@ import Grading from './Pages/Services/grading';
 import TreeRemoval from './Pages/Services/treeRemoval'
 import BrushClearing from './Pages/Services/brushClearing';
 import ErosionControl from './Pages/Services/erosionControl';
+import Footer from './Components/Footer/footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path="/grading" element={<Grading />} />
       <Route path="/erosionControl" element={<ErosionControl />} />
     </Routes>
+      <Footer />
     </div>
   )
 }
