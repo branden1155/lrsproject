@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
 import './navBarStyle.css'
 import LRSImage from '../../assets/lrsimg.png'
+import { FaPhoneSquareAlt } from 'react-icons/fa'
 
 function navBar() {
 
@@ -51,7 +52,8 @@ function navBar() {
     </ul>
     <div className='hidden ml-16 md:flex items-center sm:ml-6'>
         <a href="#ourServices" data-te-smooth-scroll-init><button className='text-sm text-[#ffffff] bg-[#001e1d] rounded w-[6rem] h-[2rem] font-catamaran'>Learn More</button></a>
-        <h1 className='text-black text-sm mx-4 w-[6.5rem] underline font-catamaran'>(1)999-999-9999</h1>
+        <span className='ml-4 mr-1'><FaPhoneSquareAlt size="25px"/></span>
+        <h1 className='text-black text-sm mx-4w-[6.5rem] underline font-catamaran'>(1)999-999-9999</h1>
     </div>
     <div onClick={handleNav} className='block z-30 md:hidden'>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20}/>}

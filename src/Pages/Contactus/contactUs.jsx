@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { toast } from 'react-toastify';
+import { FaPhoneSquareAlt } from 'react-icons/fa'
 
 const contactUs = () => {
 
@@ -82,7 +83,7 @@ const contactUs = () => {
           <h1 className='uppercase font-exo text-3xl text text-[#fffffe]'>Contact Information</h1>
           <p className='font-catamaran text-lg text-[#fffffe]'>Send us a Message!</p>
           <h1 className='text-[#001e1d] mt-[60px] font-exo font-bold text-xl'>Sales Team Number:</h1>
-          <h2 className='text-[#abd1c6] font-catamaran mt-2 text-lg'>Phone: #999-999-9999</h2>
+          <h2 className='text-[#abd1c6] font-catamaran mt-2 text-lg flex'><span className='mt-1 mr-1'><FaPhoneSquareAlt size="20px"/></span> 999-999-9999</h2>
           <h1 className='flex text-[#001e1d] font-bold uppercase font-gafata text-[14px] mt-[60px]'>Land Recovery Solutions Sales</h1>
           <h3 className='flex text-[#abd1c6] font-catamaran text-[14px] font-normal'>Fill out the form to be contacted</h3>
           <div className="flex flex-col border-t border-gray-300 py-4 mt-[20px] items-center">
@@ -93,22 +94,22 @@ const contactUs = () => {
         <div className='flex shadow-lg h-[680px]'>
           <form onSubmit={handleSubmit} className='flex flex-col mt-10'>
             <div className='flex p-10'>
-              <input className='mx-8 border rounded-lg px-3 py-2 w-full focus:outline-none focus:ring focus:border-blue-300"' type="text" placeholder='Firstname' id="firstname" name="firstname" value={formData.firstname} onChange={handleChange}/>
-              <input className='mx-8 border rounded-lg px-3 py-2 w-full focus:outline-none focus:ring focus:border-blue-300"' type="text" placeholder='Lastname' id="lastname" name="lastname" value={formData.lastname} onChange={handleChange}/>
+              <input className='mx-8 border rounded-lg px-3 py-2 w-full focus:outline-none focus:ring ring-[#abd1c6]' type="text" placeholder='Firstname' id="firstname" name="firstname" value={formData.firstname} onChange={handleChange}/>
+              <input className='mx-8 border rounded-lg px-3 py-2 w-full focus:outline-none focus:ring ring-[#abd1c6]' type="text" placeholder='Lastname' id="lastname" name="lastname" value={formData.lastname} onChange={handleChange}/>
             </div>
             <div className='flex p-10'>
-              <input className='mx-8 border rounded-lg px-3 py-2 w-full focus:outline-none focus:ring focus:border-blue-300' type="text" placeholder='Phone number' id="phonenumber" name="phonenumber" value={formData.phonenumber} onChange={handleChange}/>
-              <input className='mx-8 border rounded-lg px-3 py-2 w-full focus:outline-none focus:ring focus:border-blue-300"' type="text" placeholder='Email Address.' id="email" name="email" value={formData.email} onChange={handleChange}/>
+              <input className='mx-8 border rounded-lg px-3 py-2 w-full focus:outline-none focus:ring ring-[#abd1c6]' type="text" placeholder='Phone number' id="phonenumber" name="phonenumber" value={formData.phonenumber} onChange={handleChange}/>
+              <input className='mx-8 border rounded-lg px-3 py-2 w-full focus:outline-none focus:ring ring-[#abd1c6]' type="text" placeholder='Email Address.' id="email" name="email" value={formData.email} onChange={handleChange}/>
             </div>
-            <input className='mx-20 mt-12 pb-[120px] w-[480px] text-start items-start justify-start border rounded-lg px-3 py-2 focus:outline-none focus:ring focus:border-blue-300"' type="text" placeholder='Message:' id="message" name="message" value={formData.message} onChange={handleChange}/>
+            <input className='mx-20 mt-12 pb-[120px] w-[480px] text-start items-start justify-start border rounded-lg px-3 py-2 focus:outline-none focus:ring ring-[#abd1c6]' type="text" placeholder='Message:' id="message" name="message" value={formData.message} onChange={handleChange}/>
             <div className="flex mt-4 w-[80%] text-[14px] justify-center items-center mx-auto">
               <label className="flex items-center">
                 <input type="checkbox" className="form-checkbox h-5 w-5 text-[#abd1c6]" checked={isChecked} onChange={handleCheckboxChange}/>
-                <span className="ml-2 text-gray-700">Click this if you wish to receive emails regarding Land Recovery Solutions</span>
+                <span className="ml-2 text-gray-700 font-catamaran">Click this if you wish to receive emails regarding Land Recovery Solutions</span>
               </label>
             </div>
             <div className='flex justify-center mx-auto'>
-              <button type="submit" className='bg-[#f9bc60] text-[#001e1d] mt-8 w-[110px] h-[48px] text-[12px] font-medium uppercase'>Send Message!</button>
+              <button type="submit" className='bg-[#f9bc60] text-[#001e1d] mt-8 w-[110px] h-[48px] text-[12px] font-medium uppercase font-gafata'>Send Message!</button>
             </div>
           </form>
         </div>
