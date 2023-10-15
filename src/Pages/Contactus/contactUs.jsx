@@ -113,7 +113,6 @@ const contactUs = () => {
             </div>
           </form>
           <span>{console.log(import.meta.env.VITE_API_KEY)}</span>
-          <span>{console.log(process.env.VITE_API_KEY)}</span>
         </div>
       </div>
     </div>
